@@ -1,5 +1,5 @@
 //Code to solve Josephus problem in a simple way.
-//
+//Using a proven mathematical formular
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,11 +15,12 @@ int main()
     scanf("%d, ", &n); 
     int power = get_power(n);
     double temp_num = (double)n - pow(2.0, (double)power);
-    survivor = 2 * (int)temp_num + 1; 
+    survivor = 2 * (int)temp_num + 1; // == 2 * (n - 2^a + 1)
     printf("%d will survive\n", survivor);
 
 }
-
+//function to return the highest power of two available
+//in the given number. (a)
 int get_power(int a)
 {
     int b;
