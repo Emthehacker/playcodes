@@ -63,10 +63,4 @@ Push to the branch (git push origin feature-branch).
 
 Open a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-If you have any questions or suggestions, feel free to open an issue or contact me directly at your.email@example.com.
-
 Happy coding
