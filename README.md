@@ -40,7 +40,7 @@ To get started, clone the repository to your local machine:
 bash
 
 Copy
-git clone https://github.com/yourusername/playcodes.git
+git clone https://github.com/Emthehacker/playcodes.git
 Navigate to the directory:
 
 bash
